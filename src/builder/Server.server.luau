@@ -15,7 +15,6 @@ for _, ser in pairs(Services:GetChildren()) do
 			if isServer then
 				local net = isServer and networker.server.new(ser.Name, e, e.ClientAccess)
 				pcall(function()
-					e:start()
 					e:init(net)
 				end)
 			end

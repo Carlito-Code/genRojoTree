@@ -1,4 +1,9 @@
-local ExampleServiceServer = {}
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local networker = require(ReplicatedStorage.Packages.networker)
+
+local ExampleServiceServer = {
+	net = nil :: networker.Server,
+}
 
 function ExampleServiceServer.init(self: ExampleServiceServer)
 	print("hi from ExampleServiceServer!")

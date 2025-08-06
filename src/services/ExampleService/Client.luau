@@ -11,11 +11,11 @@ local ExampleServiceClient = {
 
 -- CLIENT ONLY FUNCTIONS --
 
-function ExampleServiceClient:init(net)
+function ExampleServiceClient.init(self: ExampleServiceClient, net: networker.Client)
 	print(script.Name, "has been initialized")
 	self.net = net
 end
 
-function ExampleServiceClient:start() end
+export type ExampleServiceClient = typeof(ExampleServiceClient) & {}
 
 return ExampleServiceClient
