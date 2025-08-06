@@ -5,7 +5,7 @@ const BASE_PATH = path.join(__dirname, "../src");
 
 const BLACKLISTED_DIRS = [
   toPosix(path.join(BASE_PATH, "ui")),
-  toPosix(path.join(BASE_PATH, "startup")),
+  toPosix(path.join(BASE_PATH, "builder")),
 ];
 
 // Tracks folders that are "claimed" by init.luau
@@ -65,7 +65,7 @@ const tree = {
     },
 
     ServerScriptService: {
-      Server: { $path: "src/startup/Server.server.luau", },
+      Server: { $path: "src/builder/Server.server.luau", },
       Services: { $className: "Folder", },
       Classes: { $className: "Folder", },
       Modules: { $className: "Folder", },
@@ -73,7 +73,7 @@ const tree = {
 
     StarterPlayer: {
       StarterPlayerScripts: {
-        Client: { $path: "src/startup/Client.client.luau", }
+        Client: { $path: "src/builder/Client.client.luau", }
       },
     },
   }

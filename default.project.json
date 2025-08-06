@@ -48,14 +48,11 @@
       },
       "Packages": {
         "$path": "Packages"
-      },
-      "UI": {
-        "$path": "src/ui"
       }
     },
     "ServerScriptService": {
       "Server": {
-        "$path": "src/startup/Server.server.luau"
+        "$path": "src/builder/Server.server.luau"
       },
       "Services": {
         "$className": "Folder",
@@ -76,7 +73,7 @@
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "Client": {
-          "$path": "src/startup/Client.client.luau"
+          "$path": "src/builder/Client.client.luau"
         }
       }
     }
