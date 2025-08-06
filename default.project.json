@@ -12,16 +12,38 @@
             "ExampleServiceClient": {
               "$path": "src/services/ExampleService/Client.luau"
             },
+            "ExampleServiceTypes": {
+              "$path": "src/services/ExampleService/Types.luau"
+            },
             "ExampleServiceUtils": {
               "$path": "src/services/ExampleService/Utils.luau"
             }
           }
         },
-        "Classes": {
-          "$className": "Folder"
+        "Data": {
+          "$className": "Folder",
+          "$path": "src/data"
         },
-        "Modules": {
-          "$className": "Folder"
+        "Anim": {
+          "$className": "Folder",
+          "Animations": {
+            "$path": "src/anim/Animations.luau"
+          },
+          "Settings": {
+            "$path": "src/anim/Settings.luau"
+          },
+          "Util": {
+            "$path": "src/anim/Util.luau"
+          }
+        },
+        "Functions": {
+          "$className": "Folder",
+          "clientFunctions": {
+            "$path": "src/functions/clientFunctions.luau"
+          },
+          "global": {
+            "$path": "src/functions/global.luau"
+          }
         }
       },
       "Packages": {
