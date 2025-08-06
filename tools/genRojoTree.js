@@ -56,10 +56,6 @@ const tree = {
       Shared: {
         $className: "Folder",
         Services: { $className: "Folder", },
-        Data: { 
-          $className: "Folder", 
-          $path: "src/data"
-        },
       },
       Packages: { $path: "Packages", },
     },
@@ -67,8 +63,6 @@ const tree = {
     ServerScriptService: {
       Server: { $path: "src/builder/Server.server.luau", },
       Services: { $className: "Folder", },
-      Classes: { $className: "Folder", },
-      Modules: { $className: "Folder", },
     },
 
     StarterPlayer: {

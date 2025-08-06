@@ -3,8 +3,18 @@
 registry = "test"
 
 [[package]]
+name = "1foreverhd/topbarplus"
+version = "3.3.1"
+dependencies = []
+
+[[package]]
 name = "bestyear20/chance"
 version = "1.0.4"
+dependencies = []
+
+[[package]]
+name = "bubshurb/viewportmodel"
+version = "1.0.0"
 dependencies = []
 
 [[package]]
@@ -35,7 +45,7 @@ dependencies = [["Promise", "evaera/promise@4.0.0"]]
 [[package]]
 name = "leifs/genrojotree"
 version = "0.1.0"
-dependencies = [["chance", "bestyear20/chance@1.0.4"], ["dataservice", "carlito-code/dataservice@0.3.0"], ["fusion", "elttob/fusion@0.3.0"], ["networker", "leifstout/networker@0.3.0"], ["observers", "sleitnick/observers@0.3.4"], ["promise", "quenty/promise@3.1.2"], ["queue", "nightcycle/queue@2.3.3"], ["shake", "sleitnick/shake@1.1.0"], ["signal", "sleitnick/signal@2.0.3"], ["trove", "sleitnick/trove@1.5.1"], ["zone", "zythdotdev/zone@1.1.0"]]
+dependencies = [["chance", "bestyear20/chance@1.0.4"], ["dataservice", "carlito-code/dataservice@0.3.0"], ["fusion", "elttob/fusion@0.3.0"], ["networker", "leifstout/networker@0.3.0"], ["observers", "sleitnick/observers@0.3.4"], ["promise", "quenty/promise@3.1.2"], ["queue", "nightcycle/queue@2.3.3"], ["robloxstatemachine", "prooheckcp/robloxstatemachine@1.1.7"], ["satchel", "ryanlua/satchel@1.3.2"], ["shake", "sleitnick/shake@1.1.0"], ["signal", "sleitnick/signal@2.0.3"], ["testez", "roblox/testez@0.4.1"], ["trove", "sleitnick/trove@1.5.1"], ["viewport", "bubshurb/viewportmodel@1.0.0"], ["zone", "zythdotdev/zone@1.1.0"]]
 
 [[package]]
 name = "leifstout/networker"
@@ -58,6 +68,11 @@ version = "2.3.3"
 dependencies = []
 
 [[package]]
+name = "prooheckcp/robloxstatemachine"
+version = "1.1.7"
+dependencies = []
+
+[[package]]
 name = "quenty/loader"
 version = "3.1.1-canary.140ed9d6.4"
 dependencies = []
@@ -71,6 +86,16 @@ dependencies = []
 name = "quenty/promise"
 version = "3.1.2"
 dependencies = [["Maid", "quenty/maid@2.0.1-canary.140ed9d6.1"], ["loader", "quenty/loader@3.1.1-canary.140ed9d6.4"]]
+
+[[package]]
+name = "roblox/testez"
+version = "0.4.1"
+dependencies = []
+
+[[package]]
+name = "ryanlua/satchel"
+version = "1.3.2"
+dependencies = [["topbarplus", "1foreverhd/topbarplus@3.3.1"]]
 
 [[package]]
 name = "sleitnick/observers"

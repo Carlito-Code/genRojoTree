@@ -20,10 +20,6 @@
             }
           }
         },
-        "Data": {
-          "$className": "Folder",
-          "$path": "src/data"
-        },
         "Anim": {
           "$className": "Folder",
           "Animations": {
@@ -44,6 +40,54 @@
           "global": {
             "$path": "src/functions/global.luau"
           }
+        },
+        "Marketplace": {
+          "$path": "src/marketplace"
+        },
+        "Util": {
+          "$className": "Folder",
+          "bezier": {
+            "$path": "src/util/bezier.luau"
+          },
+          "cam": {
+            "$path": "src/util/cam.luau"
+          },
+          "cf": {
+            "$path": "src/util/cf.luau"
+          },
+          "char": {
+            "$path": "src/util/char.luau"
+          },
+          "debugDraw": {
+            "$path": "src/util/debugDraw.luau"
+          },
+          "format": {
+            "$path": "src/util/format.luau"
+          },
+          "future": {
+            "$path": "src/util/future.luau"
+          },
+          "game": {
+            "$path": "src/util/game.luau"
+          },
+          "logger": {
+            "$path": "src/util/logger.luau"
+          },
+          "object": {
+            "$path": "src/util/object.luau"
+          },
+          "table": {
+            "$path": "src/util/table.luau"
+          },
+          "vector": {
+            "$path": "src/util/vector.luau"
+          },
+          "vfx": {
+            "$path": "src/util/vfx.luau"
+          },
+          "viewporthandler": {
+            "$path": "src/util/viewporthandler.luau"
+          }
         }
       },
       "Packages": {
@@ -62,12 +106,6 @@
             "$path": "src/services/ExampleService/Server.luau"
           }
         }
-      },
-      "Classes": {
-        "$className": "Folder"
-      },
-      "Modules": {
-        "$className": "Folder"
       }
     },
     "StarterPlayer": {
